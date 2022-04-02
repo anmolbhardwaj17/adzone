@@ -1,0 +1,104 @@
+.container{
+  padding-top:64px;
+  width:80%;
+  margin:auto;
+}
+
+.heroSection{
+  height:60vh;
+}
+
+.tagline{
+  padding:48px 0px;
+  font-size: 64px;
+}
+
+.highlight{
+  color:#FF5864
+}
+
+.textSection{
+  padding:24px 0px;
+}
+
+.textSection p{
+  padding-top:8px;
+  color:#828282;
+}
+
+.cardContainer{
+  padding:24px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card{
+  width:23%;
+  padding:1%;
+  cursor:pointer;
+  transition: 0.1s;
+  border-radius: 8px;
+}
+.card:hover{
+  background-color: #f6f6f6;
+  transition: 0.1s ease-in-out;
+}
+
+.card img{
+  width:100%;
+  border-radius: 4px;
+}
+
+.cardContent{
+  padding:8px 0px;
+}
+
+.cardTitle{
+  font-weight: bold;
+  font-size: 16px;
+  color:#060606;
+}
+
+.views{
+  font-size: 12px;
+  padding-top:8px;
+  color:#828282;
+}
+
+.moreSection{
+  text-align: center;
+}
+
+button{
+  border: none;
+  background: linear-gradient(90deg, #FD297B 0%, #FF5864 53.75%, #FF655B 100%);
+  border-radius: 8px;
+  width:200px;
+  color:white;
+  font-weight: bold;
+  padding:16px 0px;
+  cursor:pointer;
+}
+
+@media(max-width:768px){
+  .container{
+    width:90%;
+    margin:auto;
+  }
+  .card{
+    width:31.33%;
+    padding:1%;
+  }
+}
+
+@media(max-width:455px){
+  .container{
+    width:96%;
+    margin:auto;
+  }
+  .card{
+    width:98%;
+    padding:1%;
+  }
+}
