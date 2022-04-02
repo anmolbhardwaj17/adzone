@@ -6,15 +6,22 @@
 
 .heroSection{
   height:60vh;
+  text-align: center;
+}
+
+.section{
+  padding:24px 0px;
 }
 
 .tagline{
   padding:48px 0px;
   font-size: 64px;
+  line-height: 100%;
+  
 }
 
 .highlight{
-  color:#FF5864
+  color:#6DAD4F;
 }
 
 .textSection{
@@ -72,7 +79,7 @@
 
 button{
   border: none;
-  background: linear-gradient(90deg, #FD297B 0%, #FF5864 53.75%, #FF655B 100%);
+  background: #6DAD4F;
   border-radius: 8px;
   width:200px;
   color:white;

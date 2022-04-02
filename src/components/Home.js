@@ -7,10 +7,10 @@ function Home() {
     return (
         <div className="container">
         <div className="heroSection">
-            <h1 className="tagline">Best platform for <span className="highlight">viral</span> content.</h1>
+            <h1 className="tagline">the <span className="highlight">viral</span> content is here.</h1>
             <button>Be a member</button>
         </div>
-            <div className="allVideos">
+            <div className="allVideos section">
                 <div className="textSection">
                     <h2>All Videos</h2>
                     <p>Collection of our top videos</p>
@@ -64,7 +64,7 @@ function Home() {
                     <button>More videos</button>
                 </div>
             </div>
-            <div className="topVideos">
+            <div className="topVideos section">
                 <div className="textSection">
                     <h2>Top Videos</h2>
                     <p>Top videos this month</p>
