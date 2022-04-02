@@ -1,0 +1,19 @@
+button{
+    border: none;
+    background: #6DAD4F;
+    border-radius: 8px;
+    border:2px solid #6DAD4F;
+    width:200px;
+    color:white;
+    font-weight: 600;
+    padding:16px 0px;
+    cursor:pointer;
+    transition: 0.1s;
+    /* letter-spacing: 2px; */
+  }
+
+ button:hover{
+     background: rgba(0,0,0,0);
+     transition: 0.1s;
+     color: #6DAD4F;
+ }

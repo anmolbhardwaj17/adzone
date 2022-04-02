@@ -26,7 +26,7 @@ function Categories() {
                     </div>
                 </div>
                 <div className="moreSection">
-                    <button>All categories</button>
+                    <button>ALL CATEGORIES</button>
                 </div>
             </div>
     </div>

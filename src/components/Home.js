@@ -1,15 +1,15 @@
 import {React, useState, useEffect} from 'react';
 import '../stylesheets/Home.css';
 import {useNavigate} from 'react-router-dom';
-import Categories from './Categories';
+import Categories from './categoriesHome';
 
 function Home() {
     return (
         <div className="container">
-        <div className="heroSection">
+        {/* <div className="heroSection">
             <h1 className="tagline">the <span className="highlight">viral</span> content is here.</h1>
-            <button>Be a member</button>
-        </div>
+            <button>BE A MEMBER</button>
+        </div> */}
             <div className="allVideos section">
                 <div className="textSection">
                     <h2>All Videos</h2>
@@ -61,7 +61,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="moreSection">
-                    <button>More videos</button>
+                    <button>MORE VIDEOS</button>
                 </div>
             </div>
             <div className="topVideos section">
@@ -121,7 +121,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="moreSection">
-                    <button>More videos</button>
+                    <button>MORE VIDEOS</button>
                 </div>
             </div>
             <Categories/>

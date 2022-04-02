@@ -77,16 +77,7 @@
   text-align: center;
 }
 
-button{
-  border: none;
-  background: #6DAD4F;
-  border-radius: 8px;
-  width:200px;
-  color:white;
-  font-weight: bold;
-  padding:16px 0px;
-  cursor:pointer;
-}
+
 
 @media(max-width:768px){
   .container{
