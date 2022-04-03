@@ -1,0 +1,122 @@
+.singleVideo{
+    display: flex;
+}
+
+.singleVideoLeft{
+    width:56%;
+    padding:2%;
+}
+
+.singleVideoRight{
+    width:36%;
+    padding:2%;
+}
+
+.videoSection img{
+    width:100%;
+    border-radius: 4px;
+}
+
+.VideoSectionText{
+    padding-top:16px;
+}
+
+.description{
+    padding:24px 0px;
+}
+.comments{
+    padding-top:24px;
+}
+
+hr{
+    border-top: 1px solid rgb(244, 244, 244);
+}
+
+.singleComment{
+    padding:24px 0px;
+    display: flex;
+}
+
+.commentLeft img{
+    width:36px;
+    height:36px;
+    border-radius: 48px;
+}
+
+.commentRight{
+    padding-left:8px;
+    font-size: 14px;
+}
+
+.commentName{
+    
+    font-weight: 600;
+}
+
+.commentText{
+    padding-top:8px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.suggestContainer{
+    
+}
+
+.singlesuggestion{
+    padding:12px 0px;
+    display: flex;
+}
+
+.singlesuggestion img{
+    width:100%;
+}
+
+.suggestionImage{
+    border-radius: 8px;
+}
+
+.suggestionText{
+    width:50%;
+    padding-left:16px;
+}
+
+.suggestionImage{
+    width:50%;
+}
+
+@media(max-width:768px){
+    .singleVideo{
+        display: block;
+    }
+    
+    .singleVideoLeft{
+        width:100%;
+        padding:0%;
+    }
+    
+    .singleVideoRight{
+        width:100%;
+        padding:0%;
+    }
+
+    .comments{
+        display: none;
+    }
+
+    .singleVideoRight{
+        padding-top:24px;
+    }
+
+    .suggestionText{
+        width:60%;
+        padding-left:16px;
+    }
+    
+    .suggestionImage{
+        width:40%;
+        border-radius: 8px;
+    }
+  }

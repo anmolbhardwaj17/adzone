@@ -3,6 +3,8 @@ import './App.css';
 import Nav from './components/Nav.js';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import AllCategories from './components/AllCategories';
+import SingleVideo from './components/SingleVideo';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +23,9 @@ function App() {
      <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
-     </Routes>
+        <Route path="/allcategories" element={<AllCategories/>}/>
+        <Route path="/video/:id" element={<SingleVideo/>}/>
+    </Routes>
      </div>
      
 
