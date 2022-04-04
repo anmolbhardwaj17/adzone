@@ -28,6 +28,10 @@
     padding-top:24px;
 }
 
+video{
+    object-fit: fill;
+}
+
 hr{
     border-top: 1px solid rgb(244, 244, 244);
 }
@@ -62,16 +66,24 @@ hr{
 }
 
 .suggestContainer{
-    
+    padding-top:16px;
 }
 
 .singlesuggestion{
-    padding:12px 0px;
+    padding:0px 0px;
     display: flex;
+    border-radius: 8px;
+    transition: 0.1s;
 }
+
+.singlesuggestion:hover{
+    background-color: #f6f6f6;
+    transition: 0.1s ease-in-out;
+  }
 
 .singlesuggestion img{
     width:100%;
+    padding: 8px;
 }
 
 .suggestionImage{
@@ -80,7 +92,8 @@ hr{
 
 .suggestionText{
     width:50%;
-    padding-left:16px;
+    padding-left:16px !important;
+    padding: 8px;
 }
 
 .suggestionImage{
@@ -117,6 +130,6 @@ hr{
     
     .suggestionImage{
         width:40%;
-        border-radius: 8px;
+        border-radius: 8px2;
     }
   }

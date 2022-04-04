@@ -65,6 +65,15 @@
   font-weight: bold;
   font-size: 16px;
   color:#060606;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+Link{
+  text-decoration: none;
 }
 
 .views{
@@ -76,6 +85,7 @@
 .moreSection{
   text-align: center;
 }
+
 
 
 

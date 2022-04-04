@@ -5,7 +5,10 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import AllCategories from './components/AllCategories';
 import SingleVideo from './components/SingleVideo';
+import singleCategory from './components/singleCategory';
+import ScrollToTop from './components/Extras/ScrollToTop';
 import {
+
   BrowserRouter as Router,
   Switch,
   Route,
@@ -16,6 +19,7 @@ import {
 function App() {
   return (
     <Router>
+    <ScrollToTop>
       <div className="App">
      <Nav/>
 
@@ -25,12 +29,14 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/allcategories" element={<AllCategories/>}/>
         <Route path="/video/:id" element={<SingleVideo/>}/>
+        <Route path="/category/:name" element={<singleCategory/>}/>
     </Routes>
      </div>
      
 
      
     </div>
+    </ScrollToTop>
     </Router>
     
   );

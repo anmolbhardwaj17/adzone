@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigate, Link} from 'react-router-dom';
 
 function Categories() {
   return (
@@ -10,23 +11,39 @@ function Categories() {
                 </div>
                 <div className="cardContainer">
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
+                    <div className="card">
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
+                    </div>
+                    
                 </div>
                 <div className="moreSection">
-                    <button>ALL CATEGORIES</button>
+                <Link to="/allcategories"><button>ALL CATEGORIES</button></Link>
                 </div>
             </div>
     </div>

@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import '../stylesheets/Home.css';
-import {useNavigate} from 'react-router-dom';
+import {useNavigate, Link} from 'react-router-dom';
 import Categories from './categoriesHome';
 
 function Home() {
@@ -17,51 +17,55 @@ function Home() {
                 </div>
                 <div className="cardContainer">
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="card">
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="card">
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="card">
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className="moreSection">
-                    <button>MORE VIDEOS</button>
+                <Link to="/topVideos"><button>MORE VIDEOS</button></Link>
                 </div>
             </div>
             <div className="topVideos section">
@@ -70,58 +74,55 @@ function Home() {
                     <p>Top videos this month</p>
                 </div>
                 <div className="cardContainer">
+                    
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="/assets/imgCard.png"/>
-                        <div className="cardContent">
-                            <p className="cardTitle">First video</p>
-                            <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                        </div>
+                        <Link to="/video/12345">
+                            <img src="/assets/imgCard.png"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="moreSection">
-                    <button>MORE VIDEOS</button>
+                <Link to="/topVideos"><button>MORE VIDEOS</button></Link>
                 </div>
             </div>
             <Categories/>
