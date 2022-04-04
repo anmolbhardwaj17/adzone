@@ -23,6 +23,7 @@
 html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  font-smooth: always;
 }
 
 body{
@@ -32,4 +33,13 @@ body{
   background-color: white;
   color: #313131;
 
+}
+
+a {
+  text-decoration: none !important;
+  color: #313131;
+}
+
+Link{
+  text-decoration: none;
 }

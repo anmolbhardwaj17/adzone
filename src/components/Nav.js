@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Nav.css';
-import {useNavigate} from 'react-router-dom';
+import {useNavigate, Link} from 'react-router-dom';
 
 
 function Nav() {
@@ -19,7 +19,9 @@ function Nav() {
     return (
         <nav>
             <div className="brand">
-                <p>Adzone</p>
+                <Link to="/">
+                    <p>Brand</p>
+                </Link>
             </div>   
         </nav>
     )

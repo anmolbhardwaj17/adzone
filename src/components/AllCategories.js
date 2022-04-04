@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import '../stylesheets/AllCategories.css';
+import {useNavigate, Link} from 'react-router-dom';
 
 function AllCategories() {
   return (
@@ -8,28 +10,53 @@ function AllCategories() {
                     <h2>Categories</h2>
                     <p>Our most famous categories</p>
                 </div>
-                <div className="cardContainer">
+                <div className="cardContainer categoryPos">
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
                     <div className="card">
-                        <img src="/assets/imgCard.png"/>    
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
                     </div>
+                    <div className="card">
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
+                    </div>
+                    <div className="card">
+                        <Link to="/category/name">
+                            <img src="/assets/imgCard.png"/> 
+                        </Link>   
+                    </div>
+                    
                 </div>
             </div>
     </div>

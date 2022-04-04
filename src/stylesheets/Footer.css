@@ -1,0 +1,16 @@
+.footer{
+    background-color: #DDD2FF;
+    text-align: center;
+}
+
+.footerBrand{
+    padding-bottom: 48px;
+    font-size: 24px;
+}
+
+.cc{
+    padding:16px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#6333FF;
+}

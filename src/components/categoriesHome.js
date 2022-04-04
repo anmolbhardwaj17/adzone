@@ -43,7 +43,7 @@ function Categories() {
                     
                 </div>
                 <div className="moreSection">
-                <Link to="/allcategories"><button>ALL CATEGORIES</button></Link>
+                <Link to="/allcategories"><button>All categories</button></Link>
                 </div>
             </div>
     </div>

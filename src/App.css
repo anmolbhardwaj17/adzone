@@ -1,8 +1,8 @@
 button{
     border: none;
-    background: #6DAD4F;
+    background: #6333FF;
     border-radius: 8px;
-    border:2px solid #6DAD4F;
+    border:2px solid #6333FF;
     width:200px;
     color:white;
     font-weight: 600;
@@ -15,5 +15,9 @@ button{
  button:hover{
      background: rgba(0,0,0,0);
      transition: 0.1s;
-     color: #6DAD4F;
+     color: #6333FF;
+ }
+
+.footerDiv{
+     padding-top:48px;
  }

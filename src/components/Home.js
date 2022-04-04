@@ -65,7 +65,7 @@ function Home() {
                     
                 </div>
                 <div className="moreSection">
-                <Link to="/topVideos"><button>MORE VIDEOS</button></Link>
+                <Link to="/topVideos"><button>More videos</button></Link>
                 </div>
             </div>
             <div className="topVideos section">
@@ -122,7 +122,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="moreSection">
-                <Link to="/topVideos"><button>MORE VIDEOS</button></Link>
+                <Link to="/topVideos"><button>More videos</button></Link>
                 </div>
             </div>
             <Categories/>

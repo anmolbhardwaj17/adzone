@@ -1,0 +1,9 @@
+@media(max-width:455px){
+    .card{
+            width:48%;
+            padding:1%;
+            cursor:pointer;
+            transition: 0.1s;
+            border-radius: 8px;
+    }
+  }
