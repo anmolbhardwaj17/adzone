@@ -1,5 +1,5 @@
 @media(max-width:455px){
-    .card{
+    .categoryPos .card{
             width:48%;
             padding:1%;
             cursor:pointer;
