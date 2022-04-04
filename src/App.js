@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import AllCategories from './components/AllCategories';
 import SingleVideo from './components/SingleVideo';
 import Footer from './components/Footer';
-import singleCategory from './components/singleCategory';
+import SingleCategory from './components/SingleCategory';
 import ScrollToTop from './components/Extras/ScrollToTop';
 import {
 
@@ -14,7 +14,8 @@ import {
   Switch,
   Route,
   Routes,
-  Link
+  Link,
+  Navigate
 } from "react-router-dom";
 
 function App() {
@@ -29,8 +30,11 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/allcategories" element={<AllCategories/>}/>
+        <Route path="/category/:name" element={<SingleCategory/>}/>
         <Route path="/video/:id" element={<SingleVideo/>}/>
-        <Route path="/category/:name" element={<singleCategory/>}/>
+        
+        <Route path="*" element={<Navigate replace to="/" />}/>
+
     </Routes>
      </div>
      
