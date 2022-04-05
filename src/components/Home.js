@@ -18,7 +18,7 @@ function Home() {
                 <div className="cardContainer">
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -27,7 +27,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -36,7 +36,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -45,7 +45,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -54,13 +54,23 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
                             </div>
                         </Link>
                     </div>
+                    <div className="card">
+                        <Link to="/video/12345">
+                            <img src="https://random.imagecdn.app/1920/1080"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
+                    </div>
+                    
                     
                     
                 </div>
@@ -77,7 +87,7 @@ function Home() {
                     
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -86,7 +96,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -95,7 +105,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -104,7 +114,7 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -113,13 +123,23 @@ function Home() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
                             </div>
                         </Link>
                     </div>
+                    <div className="card">
+                        <Link to="/video/12345">
+                            <img src="https://random.imagecdn.app/1920/1080"/>
+                            <div className="cardContent">
+                                <p className="cardTitle">First video</p>
+                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                            </div>
+                        </Link>
+                    </div>
+                    
                 </div>
                 <div className="moreSection">
                 <Link to="/topVideos"><button>More videos</button></Link>

@@ -12,7 +12,7 @@ function singleCategory() {
                 <div className="cardContainer">
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -21,7 +21,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -30,7 +30,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -39,7 +39,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -48,7 +48,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -57,7 +57,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -66,7 +66,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -75,7 +75,7 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
@@ -84,58 +84,14 @@ function singleCategory() {
                     </div>
                     <div className="card">
                         <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
+                            <img src="https://random.imagecdn.app/1920/1080"/>
                             <div className="cardContent">
                                 <p className="cardTitle">First video</p>
                                 <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
                             </div>
                         </Link>
                     </div>
-                    <div className="card">
-                        <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
-                            <div className="cardContent">
-                                <p className="cardTitle">First video</p>
-                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="card">
-                        <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
-                            <div className="cardContent">
-                                <p className="cardTitle">First video</p>
-                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="card">
-                        <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
-                            <div className="cardContent">
-                                <p className="cardTitle">First video</p>
-                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="card">
-                        <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
-                            <div className="cardContent">
-                                <p className="cardTitle">First video</p>
-                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="card">
-                        <Link to="/video/12345">
-                            <img src="/assets/imgCard.png"/>
-                            <div className="cardContent">
-                                <p className="cardTitle">First video</p>
-                                <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
-                            </div>
-                        </Link>
-                    </div>
+                    
                     
                     
                 </div>

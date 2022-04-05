@@ -12,34 +12,45 @@ function Categories() {
                 <div className="cardContainer">
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
+                    <div className="card">
+                        <Link to="/category/name">
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
+                        </Link>   
+                    </div>
+                    <div className="card">
+                        <Link to="/category/name">
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
+                        </Link>   
+                    </div>
+                    
                     
                 </div>
                 <div className="moreSection">

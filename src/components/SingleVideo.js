@@ -92,7 +92,7 @@ function SingleVideo( props ) {
                     <Link to="/video/12345">
                         <div className="singlesuggestion">
                                 <div className="suggestionImage">
-                                    <img  src="/assets/imgCard.png"/>
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
                                 </div>
                                 <div className="suggestionText">
                                     <p className="suggestionTitle">Suggestion title</p>
@@ -103,7 +103,7 @@ function SingleVideo( props ) {
                     <Link to="/video/12345">
                         <div className="singlesuggestion">
                                 <div className="suggestionImage">
-                                    <img  src="/assets/imgCard.png"/>
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
                                 </div>
                                 <div className="suggestionText">
                                     <p className="suggestionTitle">Suggestion title</p>
@@ -114,7 +114,7 @@ function SingleVideo( props ) {
                     <Link to="/video/12345">
                         <div className="singlesuggestion">
                                 <div className="suggestionImage">
-                                    <img  src="/assets/imgCard.png"/>
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
                                 </div>
                                 <div className="suggestionText">
                                     <p className="suggestionTitle">Suggestion title</p>
@@ -125,7 +125,7 @@ function SingleVideo( props ) {
                     <Link to="/video/12345">
                         <div className="singlesuggestion">
                                 <div className="suggestionImage">
-                                    <img  src="/assets/imgCard.png"/>
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
                                 </div>
                                 <div className="suggestionText">
                                     <p className="suggestionTitle">Suggestion title</p>
@@ -136,7 +136,7 @@ function SingleVideo( props ) {
                     <Link to="/video/12345">
                         <div className="singlesuggestion">
                                 <div className="suggestionImage">
-                                    <img  src="/assets/imgCard.png"/>
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
                                 </div>
                                 <div className="suggestionText">
                                     <p className="suggestionTitle">Suggestion title</p>
@@ -144,6 +144,18 @@ function SingleVideo( props ) {
                                 </div>
                         </div>
                     </Link>
+                    <Link to="/video/12345">
+                        <div className="singlesuggestion">
+                                <div className="suggestionImage">
+                                    <img  src="https://random.imagecdn.app/1920/1080"/>
+                                </div>
+                                <div className="suggestionText">
+                                    <p className="suggestionTitle">Suggestion title</p>
+                                    <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
+                                </div>
+                        </div>
+                    </Link>
+                    
                     
                     
                 </div>

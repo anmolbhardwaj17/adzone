@@ -13,47 +13,47 @@ function AllCategories() {
                 <div className="cardContainer categoryPos">
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     <div className="card">
                         <Link to="/category/name">
-                            <img src="/assets/imgCard.png"/> 
+                            <img src="https://random.imagecdn.app/1920/1080"/> 
                         </Link>   
                     </div>
                     
