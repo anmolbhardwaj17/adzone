@@ -54,7 +54,7 @@ function SingleVideo( props ) {
                     <p className="views"><i class="bi bi-eye-fill"></i> 2,345,600</p>
                     <p className="description">This is the description</p>
                 </div>
-                <hr/>
+                <div className="hr"></div>
                 <div className="comments">
                     <h3>Comments</h3>
                     <div className="singleComment">
