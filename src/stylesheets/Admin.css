@@ -1,0 +1,13 @@
+input{
+    width:200px;
+    padding:16px;
+    border:2px solid #6333FF;
+    border-radius: 8px;
+}
+.inputCover{
+    padding:16px 0px;
+}
+
+.formButton{
+    width:232px;
+}

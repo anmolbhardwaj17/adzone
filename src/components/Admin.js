@@ -1,20 +1,28 @@
-import React from 'react'
+import React from 'react';
+import '../stylesheets/Admin.css';
 
 function Admin() {
 
     const adminCheck = () => {
-
+      
     }
 
   return (
     <div className="container">
         <div className="form">
             <form>
-               username:- <input required type="text"/>
+               <div className="inputCover">
+               <label>Username: </label>
                <br/>
-               password:-  <input required minlength="8" type="password"/>
+               <input required type="text"/>
+               </div>
+               <div className="inputCover">
+               <label>Password: </label>
                <br/>
-               <button onClick="adminCheck()">submit</button> 
+               <input required minlength="8" type="password"/>
+               </div>
+               
+               <button className="formButton" onClick="adminCheck()">submit</button> 
             </form>
         </div>
     </div>
