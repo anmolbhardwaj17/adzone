@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import AllCategories from './components/AllCategories';
 import SingleVideo from './components/SingleVideo';
 import Footer from './components/Footer';
+import Admin from './components/Admin';
+import TopVideos from './components/TopVideos';
 import SingleCategory from './components/SingleCategory';
 import ScrollToTop from './components/Extras/ScrollToTop';
 import {
@@ -29,6 +31,8 @@ function App() {
      <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/topVideos" element={<TopVideos/>}/>
+        <Route path="/admin" element={<Admin/>}/>
         <Route path="/allcategories" element={<AllCategories/>}/>
         <Route path="/category/:name" element={<SingleCategory/>}/>
         <Route path="/video/:id" element={<SingleVideo/>}/>
