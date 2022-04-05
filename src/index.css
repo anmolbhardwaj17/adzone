@@ -30,8 +30,8 @@ body{
   margin:0px;
   padding:0px;
   font-family: 'Inter';
-  background-color: white;
-  color: #313131;
+  background-color: #0E0E12;
+  color: #ffffff;
 
 }
 
@@ -64,7 +64,7 @@ body{
 
 a {
   text-decoration: none !important;
-  color: #313131;
+  color: #ffffff;
 }
 
 Link{

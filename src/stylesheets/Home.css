@@ -30,7 +30,7 @@
 
 .textSection p{
   padding-top:8px;
-  color:#828282;
+  color:#67778A;
 }
 
 .cardContainer{
@@ -48,7 +48,7 @@
   border-radius: 8px;
 }
 .card:hover{
-  background-color: #DDD2FF;
+  background-color: #1C1C24;
   transition: 0.1s ease-in-out;
 }
 
@@ -64,7 +64,7 @@
 .cardTitle{
   font-weight: bold;
   font-size: 16px;
-  color:#060606;
+  color:#ffffff;
   text-decoration: none !important;
 }
 

@@ -1,9 +1,9 @@
 nav{
     position: fixed;
     top:0;
-    background-color: #ffffff;
+    background-color: #1C1C24;
     width:100%;   
-    border-bottom: 4px solid #6333FF;
+    border-bottom: 4px solid #67778A;
     box-shadow: 0px 4px 8px rgba(162, 182, 185, 0.2);
   }
 
