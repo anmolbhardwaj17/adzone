@@ -33,22 +33,22 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3e3e68;
+  background: rgba(0,0,0,0);
   border-radius: 10px;
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: rgba(0,0,0,0);;
-  background: rgba(0,0,0,0);;
+  color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
 }
 
 ::selection {
-  color: rgba(0,0,0,0);;
+  color: rgba(0,0,0,0);
   background: rgba(0,0,0,0);
 }
 
