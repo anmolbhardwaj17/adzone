@@ -1,23 +1,29 @@
 button{
-    border: none;
-    background: #6333FF;
+    width:280px;
+    padding:16px 0px;
+    border: 3px solid #191b1d;
     border-radius: 8px;
-    border:2px solid #6333FF;
-    width:200px;
     color:white;
     font-weight: 600;
-    padding:16px 0px;
+    background-color: #191b1d;
+    font-size: 16px;
     cursor:pointer;
-    transition: 0.1s;
-    /* letter-spacing: 2px; */
+    transition: 0.2s ease-in-out;
+    letter-spacing: 0.4px;
   }
-
- button:hover{
-     background: rgba(0,0,0,0);
-     transition: 0.1s;
-     color: #6333FF;
- }
+  
+  button:hover{
+    background:none;
+    color:#191b1d;
+    transition: 0.2s ease-in-out;
+  }
 
 .footerDiv{
      padding-top:48px;
  }
+
+ @media(max-width:455px){
+    button{
+      width:100%;
+    }
+  }

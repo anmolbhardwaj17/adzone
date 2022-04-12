@@ -21,7 +21,7 @@
 }
 
 .highlight{
-  color:#6DAD4F;
+  color:rgb(87, 87, 87);
 }
 
 .textSection{
@@ -48,7 +48,7 @@
   border-radius: 8px;
 }
 .card:hover{
-  background-color: #1C1C24;
+  background-color: #dfdfdf;
   transition: 0.1s ease-in-out;
 }
 
@@ -64,7 +64,7 @@
 .cardTitle{
   font-weight: bold;
   font-size: 16px;
-  color:#ffffff;
+  color:#474545;
   text-decoration: none !important;
 }
 

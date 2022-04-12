@@ -34,7 +34,7 @@ video{
 
 .hr{
     height:2px;
-    background: #1C1C24;
+    background: rgb(226, 226, 226);
 }
 
 .singleComment{
@@ -78,7 +78,7 @@ video{
 }
 
 .singlesuggestion:hover{
-    background-color: #1C1C24;
+    background-color: #dfdfdf;
     transition: 0.1s ease-in-out;
   }
 
@@ -95,6 +95,10 @@ video{
     width:50%;
     padding-left:16px !important;
     padding: 8px;
+}
+
+.suggestionTitle{
+    font-weight:600;
 }
 
 .suggestionImage{
