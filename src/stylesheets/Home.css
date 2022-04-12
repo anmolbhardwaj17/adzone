@@ -48,7 +48,7 @@
   border-radius: 8px;
 }
 .card:hover{
-  background-color: #dfdfdf;
+  background-color: #ebebeb;
   transition: 0.1s ease-in-out;
 }
 
